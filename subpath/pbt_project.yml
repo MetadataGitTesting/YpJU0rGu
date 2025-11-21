@@ -114,6 +114,20 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-11-21 22:59:41'
+  .prophecy/metadata/sqlmodels/modelJson:
+    name: modelJson
+    schema: null
+    description: null
+    author: nfson7qb.idqnxpmp@0awlanyj.com
+    files:
+    - .prophecy/modelJson.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-11-21 22:59:44'
 sqlSnapshots:
   .prophecy/metadata/sqlsnapshots/snapshot:
     name: snapshot
@@ -199,6 +213,33 @@ sqlMacros:
     - schemamacro.sql
     - schemamacro.yml
     createdAt: '2025-11-21 22:59:41'
+  .prophecy/metadata/sqlmacros/macro3:
+    name: macro3
+    macroType: macro3
+    description: null
+    author: nfson7qb.idqnxpmp@0awlanyj.com
+    files:
+    - macro2.sql
+    - sources.yml
+    createdAt: '2025-11-21 22:59:44'
+  .prophecy/metadata/sqlmacros/macro4:
+    name: macro4
+    macroType: macro4
+    description: null
+    author: nfson7qb.idqnxpmp@0awlanyj.com
+    files:
+    - macro2.sql
+    - sources.yml
+    createdAt: '2025-11-21 22:59:44'
+  .prophecy/metadata/sqlmacros/macro5:
+    name: macro5
+    macroType: macro5
+    description: null
+    author: nfson7qb.idqnxpmp@0awlanyj.com
+    files:
+    - macro2.sql
+    - sources.yml
+    createdAt: '2025-11-21 22:59:44'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/seed1:
     name: seed1
@@ -218,6 +259,14 @@ sqlSeeds:
     - seed2.csv
     - sources2.yml
     createdAt: '2025-11-21 22:59:41'
+  .prophecy/metadata/sqlseeds/seed4:
+    name: seed4
+    schema: null
+    description: null
+    author: nfson7qb.idqnxpmp@0awlanyj.com
+    files:
+    - sources.yml
+    createdAt: '2025-11-21 22:59:44'
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline:
